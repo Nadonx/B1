@@ -1,0 +1,84 @@
+/* Styles for the header */
+.header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/* Styles for the container */
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Styles for the header-right section */
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Styles for the username */
+.username {
+    margin-right: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Styles for the settings link */
+.settings-link {
+    margin-right: 20px;
+}
+
+/* Styles for the settings icon */
+.settings-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.settings-icon:hover {
+    opacity: 0.8;
+}
+
+/* Styles for the logout button */
+.logout-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+/* Styles for the main content */
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the welcome container */
+.welcome-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Styles for the success message */
+.success-message {
+    color: #28a745;
+    font-size: 1.1em;
+}
