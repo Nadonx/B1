@@ -21,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = trim($_POST['password']); // Utilisation de trim pour supprimer les espaces blancs
 
     try {
+        var_dump($pass);
         $pdo = new PDO($dsn, $user, $pass, $options);
 
         $stmt = $pdo->prepare("SELECT * FROM users WHERE nom = ?");
