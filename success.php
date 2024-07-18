@@ -13,7 +13,7 @@ if (!isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenue</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index2.css">
     <script>
         function toggleMenu() {
             var nav = document.getElementById('side-nav');
