@@ -34,8 +34,6 @@ if (!isset($_SESSION['username'])) {
         <h2>Bienvenue, <?php echo htmlspecialchars($_SESSION['username']); ?> !</h2>
         <p class="success-message">Vous êtes connecté avec succès.</p>
     </div>
-    <div class="menu-toggle" id="menu-toggle">&#9654;</div>
-
     <div id="sidebar" class="side-nav">
         <a href="index.html" class="category" id="cat1">Accueil
             <div class="subcategories">
