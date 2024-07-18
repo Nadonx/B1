@@ -137,3 +137,8 @@ button {
 	border: 2px solid white; /* Couleur noire */
     border-right: none;
 }
+.subcategories {
+    display: none;
+    padding-left: 20px;
+    color: #6b6767;
+}
