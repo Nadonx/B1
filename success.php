@@ -18,14 +18,6 @@ if (!isset($_SESSION['username'])) {
 <body>
     <header class="header">
         <div class="container">
-            <div class="header-left">
-                <nav>
-                    <ul class="nav-links">
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Médicaments</a></li>
-                    </ul>
-                </nav>
-            </div>
             <div class="header-right">
                 <span class="username"><?php echo htmlspecialchars($_SESSION['username']); ?></span>
                 <a href="settings.php" class="settings-link">
@@ -43,4 +35,3 @@ if (!isset($_SESSION['username'])) {
     </div>
 </body>
 </html>
-
