@@ -32,6 +32,23 @@ Ce projet est une application web développée à l'aide de XAMPP et Visual Stud
 3. Installez les extensions PHP et PHP Intelephense dans VS Code pour une meilleure expérience de développement.
 
 
+### Création de la base de données
+1. Démarrez MySQL depuis le panneau de contrôle de XAMPP.
+2. Ouvrez phpMyAdmin en accédant à `http://localhost/phpmyadmin`.
+3. Créez une nouvelle base de données pour le projet.
+4. Importez le fichier SQL de structure de la base de données si nécessaire ou créez les tables manuellement.
+
+### Utilisation de Ternius et PuTTY
+1. Téléchargez et installez Ternius et PuTTY depuis leurs sites officiels.
+2. Utilisez Ternius pour accéder au terminal de votre système Unix.
+3. Utilisez PuTTY pour établir des connexions SSH sécurisées à votre serveur si vous travaillez à distance.
+
+### Configuration d'Apache et MySQL sur votre machine
+1. Assurez-vous que les services Apache et MySQL sont correctement configurés et démarrés.
+2. Vérifiez la configuration des fichiers de configuration d'Apache (`httpd.conf`) et de MySQL (`my.ini`) pour garantir qu'ils utilisent les ports corrects et sont adaptés à vos besoins de développement.
+
+## Utilisation
+Après l'installation, vous pouvez accéder à l'application via votre navigateur web à l'adresse suivante : `http://localhost/nom-du-projet`.
 
 ## Utilisation
 Après l'installation, vous pouvez accéder à l'application via votre navigateur web à l'adresse suivante : `http://localhost/nom-du-projet`.>
