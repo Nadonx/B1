@@ -136,8 +136,6 @@
 .side-nav a:hover {
     background-color: #ddd;
 }
-}
-
 #sidebar {
     position: fixed;
     top: 0;
