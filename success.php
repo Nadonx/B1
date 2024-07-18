@@ -43,12 +43,12 @@ if (!isset($_SESSION['username'])) {
             <div class="subcategories">
             </div>
         </a>
-        <a href="#" class="category" id="cat3">Contact
+        <a href="#" class="category" id="cat3">Aide
             <div class="subcategories">
                 
             </div>
         </a>
-        <a href="#" class="category" id="cat4">Catégorie 4
+        <a href="#" class="category" id="cat4">Contacte
             <div class="subcategories">
                 
             </div>
