@@ -14,9 +14,6 @@ if (!isset($_SESSION['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenue</title>
     <link rel="stylesheet" href="index2.css">
-    <script>
-        <script src="javascript.js"></script>
-    </script>
 </head>
 <body>
     <header class="header">
@@ -39,7 +36,7 @@ if (!isset($_SESSION['username'])) {
     </div>
     <div class="menu-toggle" id="menu-toggle">&#9654;</div>
 
-    <div id="sidebar">
+    <div id="sidebar" class="side-nav">
         <a href="index.html" class="category" id="cat1">Accueil
             <div class="subcategories">
                 <div>Sous-catégorie 1.1</div>
@@ -54,7 +51,7 @@ if (!isset($_SESSION['username'])) {
                 <div>Sous-catégorie 2.3</div>
             </div>
         </a>
-        <a href="#" class="category" id="cat3">contact
+        <a href="#" class="category" id="cat3">Contact
             <div class="subcategories">
                 <div>Sous-catégorie 3.1</div>
                 <div>Sous-catégorie 3.2</div>
@@ -69,6 +66,33 @@ if (!isset($_SESSION['username'])) {
             </div>
         </a>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const sidebar = document.getElementById('sidebar');
+            const menuToggle = document.getElementById('menu-toggle');
+
+            menuToggle.addEventListener('click', function () {
+                if (sidebar.style.right === '0px' || sidebar.style.right === '') {
+                    sidebar.style.right = '-250px';
+                } else {
+                    sidebar.style.right = '0';
+                }
+            });
+
+            const categories = document.querySelectorAll('.category');
+
+            categories.forEach(category => {
+                category.addEventListener('mouseover', function () {
+                    this.querySelector('.subcategories').style.display = 'block';
+                });
+
+                category.addEventListener('mouseout', function () {
+                    this.querySelector('.subcategories').style.display = 'none';
+                });
+            });
+        });
+    </script>
 </body>
 </html>
 
