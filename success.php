@@ -13,14 +13,14 @@ if (!isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenue</title>
-    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="styles.css">
     <script>
         function toggleMenu() {
             var nav = document.getElementById('side-nav');
-            if (nav.style.display === 'block') {
-                nav.style.display = 'none';
+            if (nav.classList.contains('active')) {
+                nav.classList.remove('active');
             } else {
-                nav.style.display = 'block';
+                nav.classList.add('active');
             }
         }
     </script>
@@ -44,7 +44,7 @@ if (!isset($_SESSION['username'])) {
         <h2>Bienvenue, <?php echo htmlspecialchars($_SESSION['username']); ?> !</h2>
         <p class="success-message">Vous êtes connecté avec succès.</p>
     </div>
-    <div class="menu-toggle" onclick="toggleMenu()"></div>
+    <div class="menu-toggle" onclick="toggleMenu()">&#x25BA;</div>
     <div id="side-nav" class="side-nav">
         <a href="#">Accueil</a>
         <a href="#">Médicaments</a>
