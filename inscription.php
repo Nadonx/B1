@@ -3,8 +3,8 @@ session_start();
 
 $host = '127.0.0.1';
 $db   = 'users';
-$user = 'root';
-$pass = '';
+$user = 'nadir';
+$pass = 'Nadir123';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
