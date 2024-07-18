@@ -3,7 +3,7 @@ session_start();
 
 $host = '127.0.0.1';
 $db   = 'users';
-$user = 'nadir';
+$user = 'root';
 $pass = 'Nadir123';
 $charset = 'utf8mb4';
 
