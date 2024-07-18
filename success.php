@@ -38,17 +38,12 @@ if (!isset($_SESSION['username'])) {
 
     <div id="sidebar" class="side-nav">
         <a href="index.html" class="category" id="cat1">Accueil
-            <div class="subcategories">
-                <div>Sous-catégorie 1.1</div>
-                <div>Sous-catégorie 1.2</div>
-                <div>Sous-catégorie 1.3</div>
-            </div>
         </a>
-        <a href="idées.html" class="category" id="cat2">Des idées
+        <a href="idées.html" class="category" id="cat2">Nos médicaments
             <div class="subcategories">
-                <div>Sous-catégorie 2.1</div>
-                <div>Sous-catégorie 2.2</div>
-                <div>Sous-catégorie 2.3</div>
+                <div>Anticeptiques</div>
+                <div> fievre</div>
+                <div>anti douleurs</div>
             </div>
         </a>
         <a href="#" class="category" id="cat3">Contact
