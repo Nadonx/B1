@@ -15,7 +15,7 @@ if (!isset($_SESSION['username'])) {
     <title>Bienvenue</title>
     <link rel="stylesheet" href="index2.css">
     <script>
-        <script src="javaScript.js"></script>
+        <script src="javascript.js"></script>
     </script>
 </head>
 <body>
