@@ -40,25 +40,11 @@ if (!isset($_SESSION['username'])) {
         <a href="index.html" class="category" id="cat1">Accueil
         </a>
         <a href="idées.html" class="category" id="cat2">Nos médicaments
-            <div class="subcategories">
-                <div>Anticeptiques</div>
-                <div> fievre</div>
-                <div>anti douleurs</div>
             </div>
         </a>
-        <a href="#" class="category" id="cat3">Contact
-            <div class="subcategories">
-                <div>Sous-catégorie 3.1</div>
-                <div>Sous-catégorie 3.2</div>
-                <div>Sous-catégorie 3.3</div>
-            </div>
+        <a href="#" class="category" id="cat3">Aide
         </a>
-        <a href="#" class="category" id="cat4">Catégorie 4
-            <div class="subcategories">
-                <div>Sous-catégorie 4.1</div>
-                <div>Sous-catégorie 4.2</div>
-                <div>Sous-catégorie 4.3</div>
-            </div>
+        <a href="#" class="category" id="cat4">Support
         </a>
     </div>
 
