@@ -15,14 +15,7 @@ if (!isset($_SESSION['username'])) {
     <title>Bienvenue</title>
     <link rel="stylesheet" href="index2.css">
     <script>
-        function toggleMenu() {
-            var nav = document.getElementById('side-nav');
-            if (nav.classList.contains('active')) {
-                nav.classList.remove('active');
-            } else {
-                nav.classList.add('active');
-            }
-        }
+        <script src="javaScript.js"></script>
     </script>
 </head>
 <body>
