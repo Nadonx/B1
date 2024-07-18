@@ -45,16 +45,12 @@ if (!isset($_SESSION['username'])) {
         </a>
         <a href="#" class="category" id="cat3">Contact
             <div class="subcategories">
-                <div>Sous-catégorie 3.1</div>
-                <div>Sous-catégorie 3.2</div>
-                <div>Sous-catégorie 3.3</div>
+                
             </div>
         </a>
         <a href="#" class="category" id="cat4">Catégorie 4
             <div class="subcategories">
-                <div>Sous-catégorie 4.1</div>
-                <div>Sous-catégorie 4.2</div>
-                <div>Sous-catégorie 4.3</div>
+                
             </div>
         </a>
     </div>
