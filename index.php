@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo 'Erreur PDO : ' . $e->getMessage();
     }
 }
-    //salut
+    //salut test
 ?>
 <!DOCTYPE html>
 <html lang="fr">
