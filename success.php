@@ -75,8 +75,10 @@ if (!isset($_SESSION['username'])) {
             menuToggle.addEventListener('click', function () {
                 if (sidebar.style.right === '0px' || sidebar.style.right === '') {
                     sidebar.style.right = '-250px';
+                    menuToggle.style.right = '0';
                 } else {
                     sidebar.style.right = '0';
+                    menuToggle.style.right = '250px';
                 }
             });
 
