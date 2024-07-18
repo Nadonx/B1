@@ -95,34 +95,45 @@ button {
     margin-top: 10px;
 }
 
-button:hover {
-    background-color: #5a6ba3;
-    box-shadow: 0 4px 8px rgba(90, 107, 163, 0.3);
-}
-
-/* Message d'erreur */
-.error-message {
-    color: #ff0000;
-    margin-top: 10px;
-    font-size: 14px;
-}
-
-/* Success message */
-.success-message {
-    color: #008000;
-    margin-top: 10px;
-    font-size: 14px;
-}
-
-/* lien */
-a {
-    color: #6E85B7;
+.menu-toggle {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #333;
+    padding: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
     text-decoration: none;
     display: block;
-    margin-top: 15px;
-    font-size: 14px;
+    border: 2px solid white;
+    border-right: none;
 }
-
-a:hover {
-    text-decoration: underline;
+.menu-toggle:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Ajoutez un effet d'illumination */
+}
+#sidebar a {
+   display: block;
+    line-height: 2; /* Ajustez la hauteur de ligne pour centrer verticalement */
+    border-bottom: 1px solid #fff;
+}
+#sidebar a:first-child {
+    border-bottom-width: 3px; /* Trait plus gras pour la première catégorie (Accueil) */
+}
+#sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    padding-top: 50px;
+    transition: 0.5s;
+	border: 2px solid white; /* Couleur noire */
+    border-right: none;
 }

@@ -44,12 +44,37 @@ if (!isset($_SESSION['username'])) {
         <h2>Bienvenue, <?php echo htmlspecialchars($_SESSION['username']); ?> !</h2>
         <p class="success-message">Vous êtes connecté avec succès.</p>
     </div>
-    <div class="menu-toggle" onclick="toggleMenu()">&#x25BA;</div>
-    <div id="side-nav" class="side-nav">
-        <a href="#">Accueil</a>
-        <a href="#">Médicaments</a>
-        <a href="#">Paramètres</a>
-        <a href="logout.php">Déconnexion</a>
+    <div class="menu-toggle" id="menu-toggle">&#9654;</div>
+
+    <div id="sidebar">
+        <a href="index.html" class="category" id="cat1">Accueil
+            <div class="subcategories">
+                <div>Sous-catégorie 1.1</div>
+                <div>Sous-catégorie 1.2</div>
+                <div>Sous-catégorie 1.3</div>
+            </div>
+        </a>
+        <a href="idées.html" class="category" id="cat2">Des idées
+            <div class="subcategories">
+                <div>Sous-catégorie 2.1</div>
+                <div>Sous-catégorie 2.2</div>
+                <div>Sous-catégorie 2.3</div>
+            </div>
+        </a>
+        <a href="#" class="category" id="cat3">contact
+            <div class="subcategories">
+                <div>Sous-catégorie 3.1</div>
+                <div>Sous-catégorie 3.2</div>
+                <div>Sous-catégorie 3.3</div>
+            </div>
+        </a>
+        <a href="#" class="category" id="cat4">Catégorie 4
+            <div class="subcategories">
+                <div>Sous-catégorie 4.1</div>
+                <div>Sous-catégorie 4.2</div>
+                <div>Sous-catégorie 4.3</div>
+            </div>
+        </a>
     </div>
 </body>
 </html>
