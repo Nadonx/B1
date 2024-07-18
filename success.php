@@ -42,9 +42,11 @@ if (!isset($_SESSION['username'])) {
         <a href="idées.html" class="category" id="cat2">Nos médicaments
             </div>
         </a>
-        <a href="#" class="category" id="cat3">Aide
+        <a href="#" class="category" id="cat3">Contact
+            
         </a>
-        <a href="#" class="category" id="cat4">Support
+        <a href="#" class="category" id="cat4">Catégorie 4
+            
         </a>
     </div>
 
