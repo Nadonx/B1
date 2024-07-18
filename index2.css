@@ -1,3 +1,5 @@
+/* styles.css */
+
 /* Styles for the header */
 .header {
     background-color: #f8f9fa;
@@ -81,4 +83,47 @@
 .success-message {
     color: #28a745;
     font-size: 1.1em;
+}
+
+/* Styles for the menu toggle */
+.menu-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.menu-toggle:hover {
+    background-color: #555;
+}
+
+/* Styles for the side navigation */
+.side-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #f8f9fa;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    padding-top: 60px;
+}
+
+.side-nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #333;
+    display: block;
+}
+
+.side-nav a:hover {
+    background-color: #ddd;
 }
